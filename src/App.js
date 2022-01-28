@@ -1,12 +1,13 @@
-import React from "react";
-
+import React, { Fragment } from "react";
+import CryptoCalculator from "./components/CryptoCalculator";
+import '../src/styles.css'
 
 function App() {
   return (
-    <div className="App">
-      Appi
-    </div>
-  );
+    <Fragment>
+      <CryptoCalculator />
+    </Fragment>
+  )
 }
 
 export default App;
