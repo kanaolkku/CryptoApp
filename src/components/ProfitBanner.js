@@ -2,7 +2,6 @@ import React from "react";
 
 const ProfitBanner = ({ profitAmount, type }) => {
   if (type === "profit") {
-
     return (
       <div className="profit-banner">
         <span className="dolla-dolla">$</span>
@@ -13,7 +12,7 @@ const ProfitBanner = ({ profitAmount, type }) => {
         </div>
         <span className="dolla-dolla">$</span>
       </div>
-    )
+    );
   } else {
     return (
       <div>
@@ -22,8 +21,8 @@ const ProfitBanner = ({ profitAmount, type }) => {
           <p></p>
         </div>
       </div>
-    )
+    );
   }
-}
+};
 
-export default ProfitBanner
+export default ProfitBanner;

@@ -1,7 +1,12 @@
 import React from "react";
 
-const Form = ({ startDate, endDate, setStartDate, setEndDate, getCoinData }) => {
-
+const Form = ({
+  startDate,
+  endDate,
+  setStartDate,
+  setEndDate,
+  getCoinData,
+}) => {
   return (
     <div className="date-container">
       <input
@@ -17,9 +22,10 @@ const Form = ({ startDate, endDate, setStartDate, setEndDate, getCoinData }) => 
         value={endDate}
         className="date-input"
       />
-      <button onClick={() => getCoinData()}
-        className="main-button">ANALYZE</button>
+      <button onClick={() => getCoinData()} className="main-button">
+        ANALYZE
+      </button>
     </div>
-  )
-}
-export default Form
+  );
+};
+export default Form;
