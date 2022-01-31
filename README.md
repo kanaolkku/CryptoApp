@@ -2,7 +2,7 @@
 
 ## About the project
 
-CryptoApp is a solution to Vincit's Rising Start 2021 pre-assignment.
+CryptoApp is a solution to Vincit's [Rising Start 2021 pre-assignment](https://vincit.fi/risingstar/Vincit-Rising-Star-2021-Pre-assignment.pdf).
 CryptoApp's main purpose is to analyze Bitcoin's historical data between a given date range and calculate some specific statistics, which include:
 - Longest downward trend within the given date range
 - Date of the highest trading volume
