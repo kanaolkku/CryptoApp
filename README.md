@@ -1,5 +1,9 @@
 # CryptoApp
 
+## Live demo
+
+https://aqueous-chamber-10582.herokuapp.com/
+
 ## About the project
 
 CryptoApp is a solution to Vincit's [Rising Start 2021 pre-assignment](https://vincit.fi/risingstar/Vincit-Rising-Star-2021-Pre-assignment.pdf).
